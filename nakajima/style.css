@@ -1,0 +1,964 @@
+/*
+    Theme Name: 中島情報文化研究所 WordPress Edition
+    Description: 2014年にMTからWP向けに再構築したデザイン
+    Version: 1.0.0
+    Author: 渡邊俊太
+    Author URI: https://www.facebook.com/w.shunn
+    License: N-Lab
+*/
+
+/* ========================================================================= */
+/*        body                                                               */
+/* ========================================================================= */
+
+html {
+	overflow-y:scroll;
+}
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background: #FBF3CC url(img/bg.gif) center repeat-y;
+	color: #000;
+}
+
+a:link { color: #B14B00; }	
+A:visited { color: #714E4C; }
+A:active { color: #80B10A; }
+A:hover { color: #80B10A; }
+
+td{
+padding: 2px 5px;
+}
+
+img.right {
+float:right;
+margin: 5px 20px 10px 20px;
+border: 0px;
+}
+
+.about img.right {
+margin: 5px 50px 15px 70px;
+}
+
+/* ========================================================================= */
+/*        box                                                                */
+/* ========================================================================= */
+
+#box {
+	margin: 0 auto;
+	width: 980px;
+	background-color:#FDF8E3;
+
+
+}
+
+/* ========================================================================= */
+/*        header                                                             */
+/* ========================================================================= */
+
+#header-wrap {
+	width: 100%;
+	background:#fff url(img/header-bg.gif) repeat-x top;
+	height: 112px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*        title                                                              */
+/*  ------------------------------------------------------------------------ */	
+#header {
+	height: 112px;
+	text-align: left;
+	border-top: 1px solid #fff; 
+	background: url(img/title-photo.jpg) right top no-repeat;
+	/* ボーダーがないと、h1上部のマージンが相殺されてしまう… */
+}
+
+h1#title{
+	margin: 25px 0 0 40px;
+	width: 426px;
+	height: 45px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/title.gif) center top no-repeat;
+	display:block;
+}
+
+#search-wrap{
+	float: right;
+	margin-right: 60px;
+	margin-top: 30px;
+}
+#search-wrap:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+input.search{
+	width:130px;
+	font-size:13px;
+	letter-spacing:1px;
+	padding:3px 5px;
+	background-color:#fff;
+	border-bottom:1px solid #F7EFB5;
+	border-right:1px solid #F7EFB5;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	background: #FFFFCC url(img/form.gif) center bottom repeat-x;
+}
+input.submit{
+	width:50px;
+	font-size:13px;
+	letter-spacing:2px;
+	border-bottom:1px solid #D2C985;
+	border-right:1px solid #D2C985;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	background: #FFFFCC url(img/search.gif) center bottom repeat-x;
+	}
+
+.entry form{
+text-align:left;
+margin-bottom:20px;
+}
+
+/* ========================================================================= */
+/*        menu                                                             */
+/* ========================================================================= */
+#menu{
+	background: url(img/menu-bg.gif)  top repeat-x;
+}
+/* ------------------------------------------------------------------------- */
+/*        main-menu                                                               */
+/*  ------------------------------------------------------------------------ */	
+#main-menu {
+	height: 38px;
+	background: url(img/menu-photo.jpg) right top no-repeat;
+}
+
+#menuber {
+	margin-left: 35px;
+
+}
+
+#menuber li {
+	display: inline;
+	float: left;
+	list-style: none;
+
+}
+
+#menuber a{
+	display: block;
+	width: 130px;
+	height: 38px;
+	margin-right: 20px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/menu.gif) no-repeat;
+}
+
+/* 画像切り替え */
+
+/* top */
+#main-menu a.menu-top {
+	background-position: left top;
+}
+#main-menu a.menu-top:hover, #main-menu a.menu-top:active, .top #main-menu a.menu-top { /* ホバリング中、アクティブな時 */
+	background-position: left -38px;
+}
+
+/* about */
+#main-menu a.menu-about {
+	background-position: -130px top;
+}
+#main-menu a.menu-about:hover, #main-menu a.menu-about:active, .about #main-menu a.menu-about {
+	background-position: -130px -38px;
+}
+
+/* profile */
+#main-menu a.menu-profile {
+	background-position: -260px top;
+}
+#main-menu a.menu-profile:hover, #main-menu a.menu-profile:active, .profile #main-menu a.menu-profile {
+	background-position: -260px -38px;
+}
+
+/* lecture */
+#main-menu a.menu-lecture {
+	background-position: -390px top;
+}
+#main-menu a.menu-lecture:hover, #main-menu a.menu-lecture:active, .lecture #main-menu a.menu-lecture {
+	background-position: -390px -38px;
+}
+
+/* writing */
+#main-menu a.menu-writing {
+	background-position: -520px top;
+}
+#main-menu a.menu-writing:hover, #main-menu a.menu-writing:active, .writing #main-menu a.menu-writing {
+	background-position: -520px -38px;
+}
+
+/* link */
+#main-menu a.menu-link {
+	background-position: -650px top;
+}
+#main-menu a.menu-link:hover, #main-menu a.menu-link:active, .link #main-menu a.menu-link {
+	background-position: -650px -38px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/*        sub-menu                                                           */
+/*  ------------------------------------------------------------------------ */	
+
+#sub-menu {
+	height: 40px;
+	background-color: #FBF3CC;
+}
+
+#sub-menuber {
+	margin-left: 40px;
+}
+
+#sub-menuber li {
+	display: inline;
+	float: left;
+	list-style: none;
+}
+
+#sub-menuber a {
+	display: block;
+	height: 20px;
+	margin:10px 30px 10px 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/submenu.gif) no-repeat;
+}
+
+/* 画像切り替え */
+
+/* top */
+
+/* about */
+a#representative {
+	width: 77px;
+	background-position: left top;
+}
+a#representative:hover, a#representative:active {
+	background-position: left -20px;
+}
+
+a#organization {
+	width: 61px;
+	background-position: -77px top;
+}
+a#organization:hover, a#organization:active {
+	background-position: -77px -20px;
+}
+
+a#work {
+	width: 77px;
+	background-position: -138px top;
+}
+a#work:hover, a#work:active {
+	background-position: -138px -20px;
+}
+
+a#brain {
+	width: 180px;
+	background-position: -215px top;
+}
+a#brain:hover, a#brain:active {
+	background-position: -215px -20px;
+}
+
+/* profile */
+a#profile {
+	width: 106px;
+	background-position: left -40px;
+}
+a#profile:hover, a#profile:active {
+	background-position: left -60px;
+}
+
+a#book {
+	width: 46px;
+	background-position: -106px -40px;
+}
+a#book:hover, a#book:active {
+	background-position: -106px -60px;
+}
+
+a#participation {
+	width: 123px;
+	background-position: left -80px;
+}
+a#participation:hover, a#participation:active {
+	background-position: left -100px;
+}
+
+/* lecture */
+a#lecture {
+	width: 77px;
+	background-position: -229px -40px;
+}
+a#lecture:hover, a#lecture:active {
+	background-position: -229px -60px;
+}
+
+
+a#request {
+	width: 77px;
+	background-position: -306px -40px;
+}
+a#request:hover, a#request:active {
+	background-position: -306px -60px;
+}
+
+
+/* 執筆記録 */
+a#gaia {
+	width: 230px;
+	background: url(img/submenu-gaia.gif) no-repeat;
+}
+a#gaia:hover, a#gaia:active {
+	background-position: left -20px;
+}
+
+a#memo {
+	width: 90px;
+	background: url(img/submenu-memo.gif) no-repeat;
+}
+a#memo:hover, a#memo:active {
+	background-position: left -20px;
+}
+
+a#bpia {
+	width: 139px;
+	background: url(img/submenu-bpia.gif) no-repeat;
+}
+a#bpia:hover, a#bpia:active {
+	background-position: left -20px;
+}
+
+a#uchida {
+	width: 210px;
+	background: url(img/submenu-uchida.gif) no-repeat;
+}
+a#uchida:hover, a#uchida:active {
+	background-position: left -20px;
+}
+
+a#metsa {
+	width: 156px;
+	background: url(img/submenu-metsa.gif) no-repeat;
+}
+a#metsa:hover, a#metsa:active {
+	background-position: left -20px;
+}
+a#churajima {
+	width: 260px;
+	background: url(img/submenu-churajima.gif) no-repeat;
+}
+a#churajima:hover, a#churajima:active {
+	background-position: left -20px;
+}
+a#article {
+	width: 136px;
+	background: url(img/submenu-article.gif) no-repeat;
+}
+a#article:hover, a#article:active {
+	background-position: left -20px;
+}
+
+
+/* link */
+a#kotoshuri {
+	width: 150px;
+	background: url(img/submenu-kotoshuri.gif) no-repeat;
+}
+a#kotoshuri:hover, a#kotoshuri:active {
+	background-position: left -20px;
+}
+
+a#miyakojima {
+	width: 81px;
+	background: url(img/submenu-miyakojima.gif) no-repeat;
+}
+a#miyakojima:hover, a#miyakojima:active {
+	background-position: left -20px;
+}
+
+a#churaho {
+	width: 150px;
+	background: url(img/submenu-churaho.gif) no-repeat;
+}
+a#churaho:hover, a#churaho:active {
+	background-position: left -20px;
+}
+
+a#senri {
+	width: 123px;
+	background: url(img/submenu-senri.gif) no-repeat;
+}
+a#senri:hover, a#senri:active {
+	background-position: left -20px;
+}
+
+/* ========================================================================= */
+/*        content                                                            */
+/* ========================================================================= */
+
+#content {
+	width: 100%;
+	background:#FDF8E3 url(img/shadow-bg.gif) repeat-x top;
+	border-top: 1px solid #FBF3CC;
+	text-align: center;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        topic-path                                                         */
+/* ------------------------------------------------------------------------- */
+
+#topicpath {
+	margin:25px 40px 25px 90px;
+	padding-left: 15px;
+	background: url(img/icon-topic.gif) no-repeat left center;
+	line-height: 16px;
+	font-size: 15px;
+	text-align: left;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        category                                                           */
+/* ------------------------------------------------------------------------- */
+
+h2{
+	height: 29px;
+	width: 900px;
+	margin: 25px auto 0 auto;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/h2-category.gif) no-repeat;
+	border-bottom: 1px solid #3E0706;
+}
+
+h2.representative {
+	background-position: left top;
+}
+h2.organization {
+	background-position: left -30px;
+}
+h2.work {
+	background-position: left -60px;
+}
+h2.brain {
+	background-position: left -90px;
+}
+
+h2.profile {
+	background-position: left -120px;
+}
+h2.book {
+	background-position: left -150px;
+}
+h2.participation {
+	background-position: left -180px;
+}
+h2.lecture {
+	background-position: left -210px;
+}
+h2.archive-lecture
+{
+	background-position: left -330px;
+}
+h2.request {
+	background-position: left -240px;
+}
+h2.error {
+	background-position: left -270px;
+}
+h2.index {
+	background-position: left -300px;
+	width: 730px;
+	float:right;
+	margin-right: 20px;
+	}
+h2.series {
+	background-position: left -360px;
+}
+h2.n-series {
+	background-position: left -390px;
+}
+
+h2.search {
+	background-position: left -420px;
+}
+/* 定期連載 */
+
+h2.gaia {
+	background: url(img/h2-gaia.gif) no-repeat;
+	background-position: left top;
+}
+.top h2.gaia {
+	width: 730px;
+	float:right;
+	margin-right: 20px;
+	}
+h2.memo {
+	background: url(img/h2-memo.gif) no-repeat;
+	background-position: left top;
+}
+h2.bpia {
+	background: url(img/h2-bpia.gif) no-repeat;
+	background-position: left top;
+}
+h2.uchida {
+	background: url(img/h2-uchida.gif) no-repeat;
+	background-position: left top;
+}
+h2.metsa {
+	background: url(img/h2-metsa.gif) no-repeat;
+	background-position: left top;
+}
+h2.churajima {
+	background: url(img/h2-churajima.gif) no-repeat;
+	background-position: left top;
+}
+h2.article {
+	background: url(img/h2-article.gif) no-repeat;
+	background-position: left top;
+}
+
+h2.completed {
+	background: url(img/h2-completed.gif) no-repeat;
+	background-position: left top;
+}
+/* リンク */
+h2.kotoshuri {
+	background: url(img/h2-kotoshuri.gif) no-repeat;
+	background-position: left top;
+}
+h2.miyakojima {
+	background: url(img/h2-miyakojima.gif) no-repeat;
+	background-position: left top;
+}
+h2.churaho {
+	background: url(img/h2-churaho.gif) no-repeat;
+	background-position: left top;
+}
+
+h2.senri {
+	background: url(img/h2-senri.gif) no-repeat;
+	background-position: left top;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        entry                                                              */
+/* ------------------------------------------------------------------------- */
+
+.entry {
+	width: 900px;
+	margin:20px auto;
+	text-align: center;
+}
+
+.entry-header {
+	height: 45px;
+	margin: 10px 15px;
+	border-bottom: 1px solid #3E0706;
+}
+
+.top .entry-header {
+	text-align:left;
+	height:30px;
+}
+.entry-title {
+	float: left;
+	height: 20px;
+	margin-top: 18px;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
+.entry-title a{
+	text-decoration: none;
+}
+
+.entry-date {
+	float: right;
+	height: 14px;
+	margin-top: 25px;
+	font-size: 14px;
+	line-height: 15px;
+	letter-spacing: 1px;
+
+}
+
+.entry-article {
+	clear: both;
+	margin:15px 35px;
+	letter-spacing: 1px;
+	line-height: 150%;
+	text-align: left;
+}
+.entry-article p {
+	margin-bottom: 1.3em;
+}
+.gaia-sum img{
+	border: 1px solid #000;
+	margin-right: 10px;
+}
+
+.gaia-sum {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        history                                                            */
+/* ------------------------------------------------------------------------- */
+.history{
+	width: 900px;
+	margin:20px auto;
+}
+
+.history-header {
+	height: 20px;
+	margin: 10px 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #3E0706;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: left;
+}
+.history-list{
+	height: 20px;
+	margin:10px 35px;
+	letter-spacing: 1px;
+	line-height: 150%;
+	text-align: left;
+}
+.history-title {
+	height: 16px;
+	margin-top: 4px;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.history-title a{
+	text-decoration: none;
+}
+
+.history-date {
+	height: 14px;
+	margin-top: 6px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        archive-link                                                       */
+/* ------------------------------------------------------------------------- */
+.archive a{
+	width: 134px;
+	height: 42px;
+	margin-left:30px;
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/archive.gif) left top no-repeat;
+}
+.archive a:hover, .archive a:active{
+	background-position: left -42px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        category archive                                                   */
+/* ------------------------------------------------------------------------- */
+.cat-archive{
+	width: 900px;
+	margin:20px auto;
+}
+
+.archive-header {
+	height: 20px;
+	margin: 10px 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #3E0706;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: left;
+}
+.archive-list{
+	padding-left:5px;
+	letter-spacing: 1px;
+	text-align: left;
+	list-style-type:none;
+
+}
+
+
+.archive-list a {
+	text-decoration:none;
+}
+
+.archive-list li{
+	border-bottom: 1px dotted #AB897D;
+	margin:5px 35px;
+	zoom: 100%;
+}
+
+.archive-title ,.archive-media {
+	font-size: 14px;
+	padding:5px 0 5px 10px;
+	float:left;
+}
+
+.lecture .archive-date {
+	padding:5px 85px 5px 0;
+}
+
+.archive-list li:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+
+.lecture li .archive-date{
+	background: url(img/archive-lecture.gif) no-repeat;
+}
+
+.lecture li.talk .archive-date {
+	background-position: right top;
+}
+
+.lecture li.keynote .archive-date {
+	background-position: right -22px ;
+}
+
+.lecture li.panel .archive-date {
+	background-position: right -44px ;
+}
+
+.lecture li.seminar .archive-date {
+	background-position: right -66px;
+}
+
+.archive-title a{
+	text-decoration: none;
+}
+
+.archive-date {
+	margin: 2px 15px 0 0;
+	font-size: 12px;
+	float:left;
+	line-height: 20px;
+}
+
+.lecture .archive-date {
+	line-height: 13px;
+}
+
+/* ========================================================================= */
+/*        footer                                                             */
+/* ========================================================================= */
+
+#footer {
+	padding: 20px 0;
+	background:#FBF3CC url(img/footer-bg.gif) repeat-x top;
+	color: #C09659;
+	font-size: 13px;
+	text-align: center;
+}
+
+#footer-menu {
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+#footer-menu li{
+	display:inline;
+	list-style-type:none;
+	margin-right:6px;
+	padding-left:10px;
+	border-left:1px #C09659 solid;
+
+}
+
+#footer-menu .first{
+	border-left: 0px;
+}
+
+#footer-menu a {
+	text-decoration: none;
+}
+/* ========================================================================= */
+/*        index                                                              */
+/* ========================================================================= */
+
+.new{
+	width: 730px;
+	margin:20px auto;
+	padding-right:20px;
+	float:right;
+	height:100%;
+}
+#content:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+
+.new-list{
+	padding:0px 10px 10px 10px;
+	letter-spacing: 1px;
+	line-height: 150%;
+	text-align: left;
+	border-bottom: 1px dotted #AB897D;
+
+}
+
+.new-title {
+	height: 18px;
+	margin: 2px 0 0 3px;
+	font-size: 16px;
+	line-height: 18px;
+}
+.new-title a {
+	text-decoration: none;
+}
+
+.new-series {
+	font-size: 14px;
+	line-height: 35px;
+	color:#8D9F29;
+}
+
+.new-date {
+	height: 18px;
+	margin: 4px 10px 0 15px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.new-comment{
+	margin: 4px 20px 10px 30px;
+	font-size: 15px;
+	line-height: 120%;
+	text-align: left;
+}
+
+.search-result{
+	font-size:13px;
+	color:#A78958;
+	margin-bottom: 60px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        left-menu                                                          */
+/* ------------------------------------------------------------------------- */
+#top-links{
+	width:160px;
+	float:left;
+	margin:25px 10px 0px 20px;
+
+}
+
+#left-menu{
+	width:160px;
+	float:left;
+	font-size: 20px;
+	line-height:200%;
+	margin:25px 10px 0px 20px;
+	text-align: center;
+
+}
+#left-menu li{
+	list-style-type: none;
+	margin:25px 0;
+}
+#left-menu a{
+	width:160px;
+	margin-top:10px;
+	display: block;
+	height: 30px;
+	margin:10px auto 10px 0px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/left-menu.gif) no-repeat;
+	border-bottom: 1px solid #A2815B;
+}
+#left-menu a.links{ 
+background:none;
+text-indent:0px;
+border-bottom:0px;
+text-align:left;
+font-size:0.8em;
+}
+#left-menu a.menu-about{
+	background-position: left top;
+}
+#left-menu a.menu-profile{
+	background-position: left -30px;
+}
+#left-menu a.menu-lecture{
+	background-position: left -60px;
+}
+#left-menu a.menu-writing{
+	background-position: left -90px;
+}
+#left-menu a.menu-link{
+	background-position: left -120px;
+}
+
+#left-menu a.menu-about:hover{
+	background-position: -160px top;
+}
+#left-menu a.menu-profile:hover{
+	background-position: -160px -30px;
+}
+#left-menu a.menu-lecture:hover{
+	background-position: -160px -60px;
+}
+#left-menu a.menu-writing:hover{
+	background-position: -160px -90px;
+}
+#left-menu a.menu-link:hover{
+	background-position: -160px -120px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*       inquiry                                                           */
+/* ------------------------------------------------------------------------- */
+#msg{
+color:#ff0000;
+background: url(img/alert.gif) no-repeat left center;
+padding-left:35px;
+margin-bottom:15px;
+}
+span.inquiry{
+color:#ff0000;
+}
+#inquiry_submit{
+margin:15px 15px 15px 500px;
+padding:0 5px;
+}

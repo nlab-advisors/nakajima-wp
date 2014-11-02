@@ -1,0 +1,489 @@
+﻿/* ========================================================================= */
+/*        body                                                               */
+/* ========================================================================= */
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background: #FBF3CC url(img/bg.gif) center repeat-y;
+	color: #000;
+}
+
+a:link { color: #B14B00; }	
+A:visited { color: #714E4C; }
+A:active { color: #80B10A; }
+A:hover { color: #80B10A; }
+
+/* ========================================================================= */
+/*        box                                                                */
+/* ========================================================================= */
+
+#box {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #FBF3CC;
+}
+
+/* ========================================================================= */
+/*        header                                                             */
+/* ========================================================================= */
+
+#header {
+	width: 100%;
+	background:#fff url(img/header-bg.gif) repeat-x top;
+	height: 112px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*        title                                                              */
+/*  ------------------------------------------------------------------------ */	
+#title {
+	height: 112px;
+	text-align: left;
+	border-top: 1px solid #fff; 
+	/* ボーダーがないと、h1上部のマージンが相殺されてしまう… */
+}
+
+#title h1{
+	margin: 25px 0 0 30px;
+	width: 426px;
+	height: 45px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/title.gif) center top no-repeat;
+}
+
+
+/* ========================================================================= */
+/*        menu                                                             */
+/* ========================================================================= */
+
+
+/* ------------------------------------------------------------------------- */
+/*        main-menu                                                               */
+/*  ------------------------------------------------------------------------ */	
+#main-menu {
+	height: 38px;
+	background:#fff url(img/menu-bg.gif) repeat-x top;
+}
+
+#menuber {
+	margin-left: 35px;
+}
+
+#menuber li {
+	display: inline;
+	float: left;
+	list-style: none;
+}
+
+#menuber a{
+	display: block;
+	width: 130px;
+	height: 38px;
+	margin-right: 20px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/menu.gif) no-repeat;
+}
+
+/* 画像切り替え */
+
+/* top */
+a#menu-top {
+	background-position: left top;
+}
+a#menu-top:hover, a#menu-top:active, .top a#menu-top { /* ホバリング中、アクティブな時 */
+	background-position: left -38px;
+}
+
+/* summary */
+a#menu-summary {
+	background-position: -130px top;
+}
+a#menu-summary:hover, a#menu-summary:active, .summary a#menu-summary {
+	background-position: -130px -38px;
+}
+
+/* profile */
+a#menu-profile {
+	background-position: -260px top;
+}
+a#menu-profile:hover, a#menu-profile:active, .profile a#menu-profile {
+	background-position: -260px -38px;
+}
+
+/* lecture */
+a#menu-lecture {
+	background-position: -390px top;
+}
+a#menu-lecture:hover, a#menu-lecture:active, .lecture a#menu-lecture {
+	background-position: -390px -38px;
+}
+
+/* writing */
+a#menu-writing {
+	background-position: -520px top;
+}
+a#menu-writing:hover, a#menu-writing:active, .writing a#menu-writing {
+	background-position: -520px -38px;
+}
+
+/* link */
+a#menu-link {
+	background-position: -650px top;
+}
+a#menu-link:hover, a#menu-link:active, .link a#menu-link {
+	background-position: -650px -38px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/*        sub-menu                                                           */
+/*  ------------------------------------------------------------------------ */	
+
+#sub-menu {
+	height: 40px;
+	background-color: #FBF3CC;
+}
+
+#sub-menuber {
+	margin-left: 40px;
+}
+
+#sub-menuber li {
+	display: inline;
+	float: left;
+	list-style: none;
+}
+
+#sub-menuber a {
+	display: block;
+	height: 20px;
+	margin:10px 30px 10px 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/submenu.gif) no-repeat;
+}
+
+/* 画像切り替え */
+
+/* top */
+
+/* summary */
+a#representative {
+	width: 77px;
+	background-position: left top;
+}
+a#representative:hover, a#representative:active {
+	background-position: left -20px;
+}
+
+a#organization {
+	width: 61px;
+	background-position: -77px top;
+}
+a#organization:hover, a#organization:active {
+	background-position: -77px -20px;
+}
+
+a#work {
+	width: 77px;
+	background-position: -138px top;
+}
+a#work:hover, a#work:active {
+	background-position: -138px -20px;
+}
+
+a#brain {
+	width: 180px;
+	background-position: -215px top;
+}
+a#brain:hover, a#brain:active {
+	background-position: -215px -20px;
+}
+
+/* profile */
+a#profile {
+	width: 106px;
+	background-position: left -40px;
+}
+a#profile:hover, a#profile:active {
+	background-position: left -60px;
+}
+
+a#book {
+	width: 46px;
+	background-position: -106px -40px;
+}
+a#book:hover, a#book:active {
+	background-position: -106px -60px;
+}
+
+a#participation {
+	width: 77px;
+	background-position: -152px -40px;
+}
+a#participation:hover, a#participation:active {
+	background-position: -152px -60px;
+}
+
+/* lecture */
+a#lecture {
+	width: 77px;
+	background-position: -229px -40px;
+}
+a#lecture:hover, a#lecture:active {
+	background-position: -229px -60px;
+}
+
+a#request {
+	width: 77px;
+	background-position: -306px -40px;
+}
+a#request:hover, a#request:active {
+	background-position: -306px -60px;
+}
+
+/* writing */
+a#gaia {
+	width: 230px;
+	background-position: left -80px;
+}
+a#gaia:hover, a#gaia:active {
+	background-position: left -100px;
+}
+
+a#memo {
+	width: 90px;
+	background-position: -230px -80px;
+}
+a#memo:hover, a#memo:active {
+	background-position: -230px -100px;
+}
+
+a#bpia {
+	width: 139px;
+	background-position: -320px -80px;
+}
+a#bpia:hover, a#bpia:active {
+	background-position: -320px -100px;
+}
+
+a#uchida {
+	width: 210px;
+	background-position: left -120px;
+}
+a#uchida:hover, a#uchida:active {
+	background-position: left -140px;
+}
+
+a#mesta {
+	width: 156px;
+	background-position: -210px -120px;
+}
+a#mesta:hover, a#mesta:active {
+	background-position: -210px -140px;
+}
+
+a#article {
+	width: 136px;
+	background-position: -366px -120px;
+}
+a#article:hover, a#article:active {
+	background-position: -366px -140px;
+}
+
+
+/* link */
+a#kotoshuri {
+	width: 150px;
+	background-position: left -160px;
+}
+a#kotoshuri:hover, a#kotoshuri:active {
+	background-position: left -180px;
+}
+
+a#miyakojima {
+	width: 81px;
+	background-position: -150px -160px;
+}
+a#miyakojima:hover, a#miyakojima:active {
+	background-position: -150px -180px;
+}
+
+a#churaho {
+	width: 150px;
+	background-position: -231px -160px;
+}
+a#churaho:hover, a#churaho:active {
+	background-position: -231px -180px;
+}
+
+
+/* ========================================================================= */
+/*        content                                                            */
+/* ========================================================================= */
+
+#content {
+	width: 100%;
+	background:#FBF3CC url(img/shadow-bg.gif) repeat-x top;
+	border-top: 1px solid #FBF3CC;
+	text-align: center;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        topic-path                                                         */
+/* ------------------------------------------------------------------------- */
+
+#topicpath {
+	margin:25px 40px;
+	line-height: 16px;
+	font-size: 15px;
+	text-align: left;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        category                                                           */
+/* ------------------------------------------------------------------------- */
+
+h2{
+	height: 29px;
+	width: 920px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(img/h2-category.gif) no-repeat;
+	border-bottom: 1px solid #3E0706;
+}
+
+h2.representative {
+	background-position: left top;
+}
+h2.organization {
+	background-position: left -30px;
+}
+h2.work {
+	background-position: left -60px;
+}
+h2.brain {
+	background-position: left -90px;
+}
+
+h2.profile {
+	background-position: left -120px;
+}
+h2.book {
+	background-position: left -150px;
+}
+h2.participation {
+	background-position: left -180px;
+}
+h2.lecture {
+	background-position: left -210px;
+}
+h2.request {
+	background-position: left -240px;
+}
+h2.gaia {
+	background-position: left -270px;
+}
+h2.memo {
+	background-position: left -510px;
+}
+h2.bpia {
+	background-position: left -300px;
+}
+h2.uchida {
+	background-position: left -330px;
+}
+h2.mesta {
+	background-position: left -360px;
+}
+h2.article {
+	background-position: left -390px;
+}
+h2.kotoshuri {
+	background-position: left -420px;
+}
+h2.miyakojima {
+	background-position: left -450px;
+}
+h2.churaho {
+	background-position: left -480px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*        entry                                                              */
+/* ------------------------------------------------------------------------- */
+
+.entry {
+	width: 920px;
+	margin:20px auto;
+	text-align: center;
+}
+
+.entry-header {
+	height: 45px;
+	margin: 10px 15px;
+	border-bottom: 1px solid #3E0706;
+}
+
+.entry-title {
+	float: left;
+	height: 20px;
+	margin-top: 18px;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
+.entry-title a{
+	text-decoration: none;
+}
+
+.entry-date {
+	float: right;
+	height: 14px;
+	margin-top: 25px;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.entry-article {
+	clear: both;
+	margin:15px 35px;
+	letter-spacing: 1px;
+	line-height: 150%;
+	text-align: left;
+}
+
+
+
+/* ========================================================================= */
+/*        footer                                                             */
+/* ========================================================================= */
+
+#footer {
+	width: 100%;
+	padding: 20px 0;
+	background:#FBF3CC url(img/shadow-bg.gif) repeat-x top;
+	color: #C09659;
+	font-size: 13px;
+}
+
+#footer-menu {
+	margin-bottom:15px;
+}
+
+#footer-menu a {
+	text-decoration: none;
+}
