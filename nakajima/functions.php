@@ -7,4 +7,9 @@ function my_tiny_mce_before_init_filter( $init_array ) {
     return $init_array;
 }
 
+#the_except()の体裁変更
+function new_excerpt_more($more) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 ?>

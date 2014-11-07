@@ -1,7 +1,7 @@
 <?php get_header('html');?>
 <body class="top">
 <?php get_header();?>
-  </div>
+  </div><!-- menu -->
     <div id="content">
       <div id="left-menu">
         <ul>
@@ -9,7 +9,7 @@
           <li><a href="<?php echo home_url("/profile/"); ?>" class="menu-profile">代表略歴</a></li>
           <li><a href="<?php echo home_url("/lecture/"); ?>" class="menu-lecture">講演情報</a></li>
           <li><a href="<?php echo home_url("/archive_article/"); ?>" class="menu-writing">執筆記録</a></li>
-          <li><a href="<?php echo home_url("kotoshuri/"); ?>" class="menu-link">リンク</a></li>
+          <li><a href="<?php echo home_url("/kotoshuri/"); ?>" class="menu-link">リンク</a></li>
         <ul>
           <li><a href="http://nakaji.co.jp/" class="links">エヌラボ</a></li>
           <li><a href="http://kotoshuri.com/" class="links">沖縄料理　古都首里</a></li>
@@ -23,7 +23,7 @@
         
         <div class="new-list">
           <span class="new-series">[中島洋の新刊情報]</span><br>
-          <span class="new-date">2009年08月31日&nbsp;-&nbsp;</span><span class="new-title"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4915933210/nlab0c-22/ref=nosim/"><img src="http://www.nakaji.co.jp/ni/cloud.png" border="0" /></a></span>
+          <span class="new-date">2009年08月31日&nbsp;-&nbsp;</span><span class="new-title"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4915933210/nlab0c-22/ref=nosim/"><img src="<?php echo home_url("/cloud.png"); ?>" border="0" /></a></span>
         </div>
 
         <?php
@@ -54,6 +54,5 @@
         </MTEntries>
       </div>
        -->
+      </div><!-- content -->
       <?php get_footer();?>
-</body>
-</html>

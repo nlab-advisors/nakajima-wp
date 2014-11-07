@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.0" created="2014-10-31 10:21" -->
+<!-- generator="WordPress/4.0" created="2014-11-07 08:13" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,8 +29,8 @@
 	<title>Welcome to the Vagrant</title>
 	<link>http://192.168.33.10</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 31 Oct 2014 10:21:55 +0000</pubDate>
-	<language>en-US</language>
+	<pubDate>Fri, 07 Nov 2014 08:13:05 +0000</pubDate>
+	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://192.168.33.10</wp:base_site_url>
 	<wp:base_blog_url>http://192.168.33.10</wp:base_blog_url>
@@ -56,7 +56,7 @@
 	<wp:category><wp:term_id>19</wp:term_id><wp:category_nicename>gaia</wp:category_nicename><wp:category_parent>scheduled_list</wp:category_parent><wp:cat_name><![CDATA[キーワードで読むガイアの夜明け]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>21</wp:term_id><wp:category_nicename>seminar</wp:category_nicename><wp:category_parent>lecture</wp:category_parent><wp:cat_name><![CDATA[セミナー]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>14</wp:term_id><wp:category_nicename>panel</wp:category_nicename><wp:category_parent>lecture</wp:category_parent><wp:cat_name><![CDATA[パネル討論]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>27</wp:term_id><wp:category_nicename>unscheduled_list</wp:category_nicename><wp:category_parent>article</wp:category_parent><wp:cat_name><![CDATA[不定期原稿]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>27</wp:term_id><wp:category_nicename>unscheduled_list</wp:category_nicename><wp:category_parent>article</wp:category_parent><wp:cat_name><![CDATA[不定期連載]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>10</wp:term_id><wp:category_nicename>jasme</wp:category_nicename><wp:category_parent>unscheduled_list</wp:category_parent><wp:cat_name><![CDATA[中小企業金融公庫]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>20</wp:term_id><wp:category_nicename>memo</wp:category_nicename><wp:category_parent>scheduled_list</wp:category_parent><wp:cat_name><![CDATA[中島洋メモ]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>7</wp:term_id><wp:category_nicename>senken</wp:category_nicename><wp:category_parent>unscheduled_list</wp:category_parent><wp:cat_name><![CDATA[先見経済]]></wp:cat_name></wp:category>
@@ -367,6 +367,275 @@
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="link"><![CDATA[リンク]]></category>
+	</item>
+	<item>
+				<title>パラダイムシフト--グリーンITと企業CIOの責務</title>
+		<link>http://192.168.33.10/?p=879</link>
+		<pubDate>Wed, 15 Jul 2009 01:09:28 +0000</pubDate>
+		<dc:creator><![CDATA[devel]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?p=879</guid>
+		<description></description>
+		<content:encoded><![CDATA[「パラダイムシフト--グリーンITと企業CIOの責務」
+2009年7月13日　東京・芝公園・日本能率協会会議室
+MM総研代表取締役所長　中島　洋
+主催:IT協会「グループCIO懇談会」
+
+<!--more-->
+　いま、情報システムに携わる人々が深く認識しなければならないのは、パラダイムシフト(価値体系転換)が進行中だということである。もちろん、シフトする方向にあるのは「人類存続のための環境保護」である。「グリーン」というのが最近の呼び方である。
+　7月のラクイラサミットでは、先進国側が米国オバマ大統領の主導で2050年に炭酸ガスを80%削減するという大胆な目標を打ち出したのに対し、新興国側は猛烈に抵抗、50%削減目標にすら反対したため、合意に至らなかったが、世界の趨勢は明らかである。 こうなると情報システム部門の人材教育も「環境本位主義」を前提に進めなければならない。
+　グリーンIT(ICT)には2つの意味がある。 まず、IT自体の省エネ化である。あるいは、使用するエネルギーを再生可能な自然エネルギーにして、炭酸ガス使用量を大幅に削減することである。情報システムや通信システムはその運転に多量の炭酸ガスを排出する。これを抑止するのがグリーンITの第一の意味だ。この炭酸ガス削減は同時に運用コストの削減に結びつくので企業にとっては受け入れられやすい。
+　もう一つはIT(ICT)によって企業運営や社会活動の省エネを図ることである。典型的な例は、情報通信システムを利用して業務の電子化を進め、ペーパーレスオフィスの実現によって紙の消費を減らすことだ。紙は、南洋、北洋の森林資源を消費することによって生産されている。森林資源は炭酸ガスを吸収する巨大な機関である。その伐採は地球の炭酸ガスを増大させる行為である。紙の消費を減少させることは森林資源の保存につながる。
+　また、通信システムを利用して、物資や人の移動を減らすことも注目される。SaaSを活用して輸送の経路を最適化する仕組みが出来上がりつつある。同じ経済効果に対して大幅な効率向上でエネルギー使用を大きく低下させることができるのである。
+　テレビ会議システムで出張件数を大幅に削減する効果も大きい。新幹線や航空機の使用エネルギーを減少させる。炭酸ガスの減少だけでなく、経費削減策としても喧伝されて来たが、これまではなかなか普及しなかった。しかし、新型インフルエンザの感染拡大によって別の面から注目を浴びることになっている。感染拡大を防ぐために、海外旅行から帰国した幹部が1週間程度、空港近くのホテルに拘束される懸念が広がっているためである。新型インフルエンザが猛威をふるって多数の幹部が一定期間拘束されることになれば、業務は混乱する。そこで、テレビ会議システムである。リスク回避の備えとして、普段からテレビ会議システムを利用することは重要な危機管理として認識されるようになったのである。動機は異なるが、結果として、炭酸ガス負荷を低下させることに、ITは極めて有効な手段になるのである。
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>879</wp:post_id>
+		<wp:post_date>2009-07-15 01:09:28</wp:post_date>
+		<wp:post_date_gmt>2009-07-15 01:09:28</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="bpia"><![CDATA[BPIAメールマガジン]]></category>
+	</item>
+	<item>
+				<title>work</title>
+		<link>http://192.168.33.10/work/</link>
+		<pubDate>Thu, 06 Nov 2014 10:57:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1584</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1584</wp:post_id>
+		<wp:post_date>2014-11-06 10:57:07</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 10:57:07</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>work</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>brain</title>
+		<link>http://192.168.33.10/brain/</link>
+		<pubDate>Thu, 06 Nov 2014 11:08:14 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1586</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1586</wp:post_id>
+		<wp:post_date>2014-11-06 11:08:14</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 11:08:14</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>brain</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>book</title>
+		<link>http://192.168.33.10/book/</link>
+		<pubDate>Thu, 06 Nov 2014 11:15:22 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1588</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1588</wp:post_id>
+		<wp:post_date>2014-11-06 11:15:22</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 11:15:22</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>book</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>participation</title>
+		<link>http://192.168.33.10/participation/</link>
+		<pubDate>Thu, 06 Nov 2014 11:15:29 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1590</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1590</wp:post_id>
+		<wp:post_date>2014-11-06 11:15:29</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 11:15:29</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>participation</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>lecture</title>
+		<link>http://192.168.33.10/lecture/</link>
+		<pubDate>Thu, 06 Nov 2014 11:15:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1592</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1592</wp:post_id>
+		<wp:post_date>2014-11-06 11:15:49</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 11:15:49</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>lecture</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>miyakojima</title>
+		<link>http://192.168.33.10/miyakojima/</link>
+		<pubDate>Thu, 06 Nov 2014 12:01:12 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1594</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1594</wp:post_id>
+		<wp:post_date>2014-11-06 12:01:12</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 12:01:12</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>miyakojima</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>churaho</title>
+		<link>http://192.168.33.10/churaho/</link>
+		<pubDate>Thu, 06 Nov 2014 12:01:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1596</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1596</wp:post_id>
+		<wp:post_date>2014-11-06 12:01:24</wp:post_date>
+		<wp:post_date_gmt>2014-11-06 12:01:24</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>churaho</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>archive_lecture</title>
+		<link>http://192.168.33.10/archive_lecture/</link>
+		<pubDate>Fri, 07 Nov 2014 03:34:22 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1598</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1598</wp:post_id>
+		<wp:post_date>2014-11-07 03:34:22</wp:post_date>
+		<wp:post_date_gmt>2014-11-07 03:34:22</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>archive_lecture</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>request</title>
+		<link>http://192.168.33.10/request/</link>
+		<pubDate>Fri, 07 Nov 2014 06:25:12 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?page_id=1603</guid>
+		<description></description>
+		<content:encoded><![CDATA[[contact-form-7 id="1602" title="Contact form 1"]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1603</wp:post_id>
+		<wp:post_date>2014-11-07 06:25:12</wp:post_date>
+		<wp:post_date_gmt>2014-11-07 06:25:12</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>request</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 				<title>関連団体・公職</title>
@@ -821,41 +1090,6 @@
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
 		</wp:comment>
-	</item>
-	<item>
-				<title>パラダイムシフト--グリーンITと企業CIOの責務</title>
-		<link>http://192.168.33.10/?p=879</link>
-		<pubDate>Wed, 15 Jul 2009 01:09:28 +0000</pubDate>
-		<dc:creator><![CDATA[devel]]></dc:creator>
-		<guid isPermaLink="false">http://192.168.33.10/?p=879</guid>
-		<description></description>
-		<content:encoded><![CDATA[「パラダイムシフト--グリーンITと企業CIOの責務」
-2009年7月13日　東京・芝公園・日本能率協会会議室
-MM総研代表取締役所長　中島　洋
-主催:IT協会「グループCIO懇談会」
-
-<!--more-->
-　いま、情報システムに携わる人々が深く認識しなければならないのは、パラダイムシフト(価値体系転換)が進行中だということである。もちろん、シフトする方向にあるのは「人類存続のための環境保護」である。「グリーン」というのが最近の呼び方である。
-　7月のラクイラサミットでは、先進国側が米国オバマ大統領の主導で2050年に炭酸ガスを80%削減するという大胆な目標を打ち出したのに対し、新興国側は猛烈に抵抗、50%削減目標にすら反対したため、合意に至らなかったが、世界の趨勢は明らかである。 こうなると情報システム部門の人材教育も「環境本位主義」を前提に進めなければならない。
-　グリーンIT(ICT)には2つの意味がある。 まず、IT自体の省エネ化である。あるいは、使用するエネルギーを再生可能な自然エネルギーにして、炭酸ガス使用量を大幅に削減することである。情報システムや通信システムはその運転に多量の炭酸ガスを排出する。これを抑止するのがグリーンITの第一の意味だ。この炭酸ガス削減は同時に運用コストの削減に結びつくので企業にとっては受け入れられやすい。
-　もう一つはIT(ICT)によって企業運営や社会活動の省エネを図ることである。典型的な例は、情報通信システムを利用して業務の電子化を進め、ペーパーレスオフィスの実現によって紙の消費を減らすことだ。紙は、南洋、北洋の森林資源を消費することによって生産されている。森林資源は炭酸ガスを吸収する巨大な機関である。その伐採は地球の炭酸ガスを増大させる行為である。紙の消費を減少させることは森林資源の保存につながる。
-　また、通信システムを利用して、物資や人の移動を減らすことも注目される。SaaSを活用して輸送の経路を最適化する仕組みが出来上がりつつある。同じ経済効果に対して大幅な効率向上でエネルギー使用を大きく低下させることができるのである。
-　テレビ会議システムで出張件数を大幅に削減する効果も大きい。新幹線や航空機の使用エネルギーを減少させる。炭酸ガスの減少だけでなく、経費削減策としても喧伝されて来たが、これまではなかなか普及しなかった。しかし、新型インフルエンザの感染拡大によって別の面から注目を浴びることになっている。感染拡大を防ぐために、海外旅行から帰国した幹部が1週間程度、空港近くのホテルに拘束される懸念が広がっているためである。新型インフルエンザが猛威をふるって多数の幹部が一定期間拘束されることになれば、業務は混乱する。そこで、テレビ会議システムである。リスク回避の備えとして、普段からテレビ会議システムを利用することは重要な危機管理として認識されるようになったのである。動機は異なるが、結果として、炭酸ガス負荷を低下させることに、ITは極めて有効な手段になるのである。
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>879</wp:post_id>
-		<wp:post_date>2009-07-15 01:09:28</wp:post_date>
-		<wp:post_date_gmt>2009-07-15 01:09:28</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="bpia"><![CDATA[BPIAメールマガジン]]></category>
 	</item>
 	<item>
 				<title>ケータイへの期待  ～次世代携帯電話は何に使えるか</title>
@@ -1812,12 +2046,10 @@ NTTコミュニケーションズ　2001年10月5日
 		<dc:creator><![CDATA[devel]]></dc:creator>
 		<guid isPermaLink="false">http://192.168.33.10/%e9%ab%98%e9%80%9f%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%81%ae%e6%99%82%e4%bb%a3%ef%bd%9e%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%81%a7%e5%a4%89/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<table>
-<tr><td class="right">日時</td><td class="right">2001年12月17日</td></tr>
+		<content:encoded><![CDATA[<table><tr><td class="right">日時</td><td class="right">2001年12月17日</td></tr>
 <tr><td class="right">主催者</td><td class="right">都筑区コミュニティカレッジ<td></tr>
 <tr><td class="right">会場</td><td class="right">都筑区コミュニティカレッジ</td></tr>
-<table
-]]></content:encoded>
+</table>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>103</wp:post_id>
 		<wp:post_date>2001-12-17 00:00:00</wp:post_date>
@@ -1832,6 +2064,10 @@ NTTコミュニケーションズ　2001年10月5日
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="talk"><![CDATA[講演]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 				<title>デジタルデバイドの行方</title>
@@ -24663,6 +24899,192 @@ NECネッツエスアイCustomer's Fair 2010
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="uchida"><![CDATA[内田洋行　奇論・暴論]]></category>
+	</item>
+	<item>
+				<title>Contact form 1</title>
+		<link>http://192.168.33.10/?post_type=wpcf7_contact_form&#038;p=1602</link>
+		<pubDate>Fri, 07 Nov 2014 05:35:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://192.168.33.10/?post_type=wpcf7_contact_form&#038;p=1602</guid>
+		<description></description>
+		<content:encoded><![CDATA[<table>
+		<tbody><tr>
+		<td>社名</td>	
+		<td>[text company id:company]</td>
+		</tr>
+		
+		<tr>
+		<td>部署</td>	
+		<td>[text division id:division]</td>
+		</tr>
+	
+		<tr>
+		<td>お名前<span class="inquiry">(*)</span></td>	
+		<td>[text* name id:name]</td>
+		</tr>
+		
+		<tr>
+		<td>連絡先電話番号<span class="inquiry">(*)</span></td>	
+		<td>[text* tel id:tel]</td>
+		</tr>
+		
+		<tr>
+		<td>メールアドレス<span class="inquiry">(*)</span></td>	
+		<td>[email* mail id:mail]</td>
+		</tr>
+
+		<tr>
+		<td>メールアドレス（確認）</td>	
+		<td>[email* mail2 id:mail]</td>
+		</tr>
+		
+		<tr>
+		<td>お問い合わせ・講演依頼内容<span class="inquiry">(*)</span></td>	
+		<td>[textarea body 40x10 id:body]
+				<br>講演ご希望の方は、日付・時間もご記入願います。</td>
+		</tr>
+		
+	</tbody></table>
+
+<p><span class="inquiry">(*)</span>は必須項目です</p>
+[submit id:inquiry_submit]
+[your-subject]
+[your-name] <wordpress@wordpress.local>
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Welcome to the Vagrant (http://wordpress.local)
+vagrant@example.com
+Reply-To: [your-email]
+
+
+
+
+[your-subject]
+Welcome to the Vagrant <wordpress@wordpress.local>
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Welcome to the Vagrant (http://wordpress.local)
+[your-email]
+Reply-To: vagrant@example.com
+
+
+
+Your message was sent successfully. Thanks.
+Failed to send your message. Please try later or contact the administrator by another method.
+Validation errors occurred. Please confirm the fields and submit it again.
+Failed to send your message. Please try later or contact the administrator by another method.
+Please accept the terms to proceed.
+Please fill the required field.
+入力されたコードが正しくありません。
+数値の形式が正しくないようです。
+数値が小さすぎます。
+数値が大きすぎます。
+メールアドレスの形式が正しくないようです。
+URL の形式が正しくないようです。
+電話番号の形式が正しくないようです。
+答えが正しくありません。
+日付の形式が正しくないようです。
+日付が早すぎます。
+日付が遅すぎます。
+ファイルのアップロードに失敗しました。
+許可されていないファイル形式です。
+ファイルが大きすぎます。
+ファイルのアップロードに失敗しました。エラーが発生しています。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1602</wp:post_id>
+		<wp:post_date>2014-11-07 05:35:50</wp:post_date>
+		<wp:post_date_gmt>2014-11-07 05:35:50</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>contact-form-1</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>wpcf7_contact_form</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_form</wp:meta_key>
+			<wp:meta_value><![CDATA[<table>
+		<tbody><tr>
+		<td>社名</td>	
+		<td>[text company id:company]</td>
+		</tr>
+		
+		<tr>
+		<td>部署</td>	
+		<td>[text division id:division]</td>
+		</tr>
+	
+		<tr>
+		<td>お名前<span class="inquiry">(*)</span></td>	
+		<td>[text* name id:name]</td>
+		</tr>
+		
+		<tr>
+		<td>連絡先電話番号<span class="inquiry">(*)</span></td>	
+		<td>[text* tel id:tel]</td>
+		</tr>
+		
+		<tr>
+		<td>メールアドレス<span class="inquiry">(*)</span></td>	
+		<td>[email* mail id:mail]</td>
+		</tr>
+
+		<tr>
+		<td>メールアドレス（確認）</td>	
+		<td>[email* mail2 id:mail]</td>
+		</tr>
+		
+		<tr>
+		<td>お問い合わせ・講演依頼内容<span class="inquiry">(*)</span></td>	
+		<td>[textarea body 40x10 id:body]
+				<br>講演ご希望の方は、日付・時間もご記入願います。</td>
+		</tr>
+		
+	</tbody></table>
+
+<p><span class="inquiry">(*)</span>は必須項目です</p>
+[submit id:inquiry_submit]]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_mail</wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:37:"[your-name] <wordpress@192.168.33.10>";s:4:"body";s:180:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Welcome to the Vagrant (http://192.168.33.10)";s:9:"recipient";s:19:"vagrant@example.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_mail_2</wp:meta_key>
+			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:48:"Welcome to the Vagrant <wordpress@192.168.33.10>";s:4:"body";s:122:"Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Welcome to the Vagrant (http://192.168.33.10)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:29:"Reply-To: vagrant@example.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_messages</wp:meta_key>
+			<wp:meta_value><![CDATA[a:21:{s:12:"mail_sent_ok";s:43:"Your message was sent successfully. Thanks.";s:12:"mail_sent_ng";s:93:"Failed to send your message. Please try later or contact the administrator by another method.";s:16:"validation_error";s:74:"Validation errors occurred. Please confirm the fields and submit it again.";s:4:"spam";s:93:"Failed to send your message. Please try later or contact the administrator by another method.";s:12:"accept_terms";s:35:"Please accept the terms to proceed.";s:16:"invalid_required";s:31:"Please fill the required field.";s:17:"captcha_not_match";s:54:"入力されたコードが正しくありません。";s:14:"invalid_number";s:48:"数値の形式が正しくないようです。";s:16:"number_too_small";s:30:"数値が小さすぎます。";s:16:"number_too_large";s:30:"数値が大きすぎます。";s:13:"invalid_email";s:63:"メールアドレスの形式が正しくないようです。";s:11:"invalid_url";s:46:"URL の形式が正しくないようです。";s:11:"invalid_tel";s:54:"電話番号の形式が正しくないようです。";s:23:"quiz_answer_not_correct";s:36:"答えが正しくありません。";s:12:"invalid_date";s:48:"日付の形式が正しくないようです。";s:14:"date_too_early";s:27:"日付が早すぎます。";s:13:"date_too_late";s:27:"日付が遅すぎます。";s:13:"upload_failed";s:57:"ファイルのアップロードに失敗しました。";s:24:"upload_file_type_invalid";s:51:"許可されていないファイル形式です。";s:21:"upload_file_too_large";s:36:"ファイルが大きすぎます。";s:23:"upload_failed_php_error";s:93:"ファイルのアップロードに失敗しました。エラーが発生しています。";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_additional_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_locale</wp:meta_key>
+			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 </channel>
 </rss>
